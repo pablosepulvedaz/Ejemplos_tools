@@ -1,0 +1,41 @@
+"""
+This is a module that store the base class for 
+all of our rig parts (components).
+"""
+
+
+import maya.cmds as cmds
+
+
+class EXAMPLE(PARENT):
+    def __init__(self,name):
+        """
+        Constructor method
+        """
+
+        self._name = name
+
+    def setup(self):
+        """
+        """
+        pass
+
+    def postSetup(self):
+        """
+        """
+        pass
+
+    def preBuild(self):
+        """
+        """
+        pass
+    
+    def build(self):
+        """
+        """
+        pass
+
+    def postBuild(self):
+        """
+        """
+        pass
