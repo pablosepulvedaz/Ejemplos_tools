@@ -1,0 +1,3 @@
+jon = cmds.ls(type ="joint")
+
+cmds.select(jon)
